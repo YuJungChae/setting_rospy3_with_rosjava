@@ -126,3 +126,13 @@ Solution: add "-H" option
 ex, sudo -H pip3 install --upgrade pip
 ```
 
+
+```
+Error Message:
+**Package oracle-java8-installer is not available, but is referred to by another package.
+
+Solution: 
+sudo apt-get install aptitude
+sudo aptitude install default-jre default-jre-headless
+
+```
